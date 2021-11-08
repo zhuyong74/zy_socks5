@@ -5,7 +5,7 @@ import (
 )
 
 // Debug enable debug log
-var Debug bool
+var Debug bool = true
 var Dial x.Dialer = x.DefaultDial
 
 func init() {
